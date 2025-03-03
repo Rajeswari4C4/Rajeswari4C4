@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajeswari Panduri - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="resume">
+            <!-- Header -->
+            <header class="header">
+                <div class="profile-container">
+                    <div class="profile-photo-container">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80" alt="Profile Photo" class="profile-photo">
+                    </div>
+                    <div class="header-content">
+                        <h1>Rajeswari Panduri</h1>
+                        <p class="title">Electronics and Communication Engineer</p>
+                        <div class="contact-info">
+                            <a href="tel:+919491178467" class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9491178467</span>
+                            </a>
+                            <a href="mailto:rajeswari.panduri@sasi.ac.in" class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>rajeswari.panduri@sasi.ac.in</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="nav-tabs">
+                    <button class="tab-btn active" data-target="all">All</button>
+                    <button class="tab-btn" data-target="summary">Summary</button>
+                    <button class="tab-btn" data-target="education">Education</button>
+                    <button class="tab-btn" data-target="skills">Skills</button>
+                    <button class="tab-btn" data-target="portfolio">Portfolio</button>
+                    <button class="tab-btn" data-target="activities">Activities</button>
+                    <button class="tab-btn" data-target="certificates">Certificates</button>
+                    <button class="tab-btn" data-target="projects">Projects</button>
+                </nav>
+            </header>
+            
+            <!-- Main Content -->
+            <main class="content">
+                <!-- Summary -->
+                <section id="summary" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-user"></i>
+                        <h2>Summary</h2>
+                    </div>
+                    <div class="section-content">
+                        <p>
+                            Recent Electronics and Communication Engineering graduate skilled in Python, HTML, CSS and Javascript. 
+                            Completed several web development projects. Looking for an entry-level software developer role to apply 
+                            my skills and contribute to innovative projects.
+                        </p>
+                    </div>
+                </section>
+                
+                <!-- Education -->
+                <section id="education" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-book-open"></i>
+                        <h2>Education</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="education-item">
+                            <h3>Bachelor of Technology (BTech) in Electronics and Communication Engineering</h3>
+                            <p class="institution">Sasi Institute of Technology and Engineering, 2022 - 2026</p>
+                            <span class="grade">CGPA: 8.5/10</span>
+                        </div>
+                        <div class="education-item">
+                            <h3>Intermediate (10+2)</h3>
+                            <p class="institution">Sri Padmavathi Mahila Junior Kalasala, 2020-2022</p>
+                            <span class="grade">Percentage: 86%</span>
+                        </div>
+                        <div class="education-item">
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <p class="institution">Sri Sai surya High School, 2019-2020</p>
+                            <span class="grade">Percentage: 98%</span>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Skills -->
+                <section id="skills" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-code"></i>
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="section-content skills-container">
+                        <div class="skills-column">
+                            <h3>Technical Skills</h3>
+                            <ul class="skills-list">
+                                <li>Basics of C programming language</li>
+                                <li>Python</li>
+                                <li>HTML, CSS & Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="skills-column">
+                            <h3>Soft Skills</h3>
+                            <ul class="skills-list">
+                                <li>Communication skills</li>
+                                <li>Time management</li>
+                                <li>Leadership qualities</li>
+                                <li>Problem solving</li>
+                                <li>Team work</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Portfolio -->
+                <section id="portfolio" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="portfolio-links">
+                            <a href="https://www.linkedin.com/in/rajeswari-panduri-929119288" target="_blank" class="portfolio-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.codechef.com/users/rajeswari2004" target="_blank" class="portfolio-link">
+                                <i class="fas fa-code"></i>
+                                <span>Codechef</span>
+                            </a>
+                            <a href="https://github.com/Rajeswari4C4" target="_blank" class="portfolio-link">
+                                <i class="fab fa-github"></i>
+                                <span>Github</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Activities -->
+                <section id="activities" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-award"></i>
+                        <h2>Extracurricular Activities</h2>
+                    </div>
+                    <div class="section-content">
+                        <h3>Member of IEEE (Institute of Electrical and Electronics Engineers)</h3>
+                        <p>
+                            Working as Secretary of Signal Processing Society and actively participating in events of IEEE.
+                        </p>
+                    </div>
+                </section>
+                
+                <!-- Certificates -->
+                <section id="certificates" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-certificate"></i>
+                        <h2>Certificates</h2>
+                    </div>
+                    <div class="section-content">
+                        <a href="http://bit.ly/4gWmw7e" target="_blank" class="certificate-link">
+                            <i class="fas fa-award"></i>
+                            <span>IEEE Membership certificate</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </section>
+                
+                <!-- Projects -->
+                <section id="projects" class="section">
+                    <div class="section-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="section-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            I have created a personal portfolio website to showcase my skills and projects.
+                        </p>
+                        <a href="https://67c3e6d5b81cfb943a496bcd--bright-dasik-c28416.netlify.app/" target="_blank" class="project-link">
+                            <span>View Portfolio</span>
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <p>© <span id="current-year"></span> Rajeswari Panduri. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const sections = document.querySelectorAll('.section');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const target = btn.getAttribute('data-target');
+                
+                // Show/hide sections based on target
+                if (target === 'all') {
+                    sections.forEach(section => {
+                        section.style.display = 'block';
+                        setTimeout(() => {
+                            section.classList.add('fade-in');
+                        }, 10);
+                    });
+                } else {
+                    sections.forEach(section => {
+                        if (section.id === target) {
+                            section.style.display = 'block';
+                            setTimeout(() => {
+                                section.classList.add('fade-in');
+                            }, 10);
+                        } else {
+                            section.classList.remove('fade-in');
+                            section.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
